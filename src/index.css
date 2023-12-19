@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  font-weight: 300;
+  font-family: Helvetica, sans-serif;
+  transition: all 1s;
+}
+
+.App {
+  display: flex;
+  height: 100dvh;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.card {
+  width: 250px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-bottom: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+h1,
+h3 {
+  animation: opacity 1s linear;
+}
+
+h3 {
+  width: 80%;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
